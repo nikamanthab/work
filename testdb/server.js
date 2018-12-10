@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const {Answer} = require('./models/answer.js');
 
 const app = express(); 
+
 app.use(bodyParser.json());
 
 app.use(express.static(__dirname + '/public'));
