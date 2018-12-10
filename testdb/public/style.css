@@ -1,0 +1,16 @@
+body{
+	background-color: #767676;
+}
+
+#buttonArea {
+	margin: 0 auto;
+	margin-top: 20px;
+    width: 100px; 
+}
+
+#check {
+	font-size: 10px;
+	font-weight: bold;
+
+}
+
