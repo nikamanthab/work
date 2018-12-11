@@ -9,7 +9,8 @@ app.use(bodyParser.json());
 
 app.use(express.static(__dirname + '/public'));
 
-app.get('/get-answer',(req,res)=>{
+app.post('/get-answer',(req,res)=>{
+	console.log(req.body);
 	Answer.find({}).then((answers)=>{
 		//console.log(answers);
 		res.status(200).send(answers);
